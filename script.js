@@ -1,28 +1,35 @@
-fetch(data.json)
-  .then(res = res.json())
-  .then(data = {
-    const list = document.getElementById(chart);
+fetch("data.json")
+  .then(res => res.json())
+  .then(data => {
+    const list = document.getElementById("chart");
     const type = list.dataset.type;
 
     let items = data[type];
-    items.sort((a, b) = b.sales - a.sales);
+    items.sort((a, b) => b.sales - a.sales);
 
-    items.forEach((item, index) = {
+    items.forEach((item, index) => {
       const pos = index + 1;
 
-      if (pos  item.peak) item.peak = pos;
-      if (pos === 1) item.weeksAt1++;
+      const card = document.createElement("div");
+      card.className = "chart-card";
 
-      const row = document.createElement(tr);
-      row.innerHTML = `
-        td${pos}td
-        td${item.artist}td
-        td${item.title}td
-        td${item.sales.toLocaleString()}td
-        td${item.weeks}td
-        td${item.peak}td
-        td${item.weeksAt1}td
+      card.innerHTML = `
+        <div class="chart-rank">${pos}</div>
+
+        <div class="chart-cover"></div>
+
+        <div class="chart-info">
+          <div class="chart-title">${item.title}</div>
+          <div class="chart-artist">${item.artist}</div>
+        </div>
+
+        <div class="chart-stats">
+          <div><b>${item.weeks}</b><span>недель</span></div>
+          <div><b>${item.peak}</b><span>пик</span></div>
+          <div><b>${item.weeksAt1}</b><span>нед. #1</span></div>
+        </div>
       `;
-      list.appendChild(row);
+
+      list.appendChild(card);
     });
   });
