@@ -96,17 +96,274 @@
 
   "albums": [
     {
-      "artist": "Jenye",
-      "title": "Opened",
-      "sales": 1600000,
-      "weeks": 10,
+      "artist": "Shawn Wayne",
+      "title": "Boat That Sailed At Sunset",
+      "sales": 14000,
+      "weeks": 73,
+      "peak": 3,
+      "weeksAt1": 0,
+      "cover": "covers/btsas.jpg"
+    },
+    {
+      "artist": "Shawn Wayne",
+      "title": "Hydration We Need",
+      "sales": 6000,
+      "weeks": 67,
       "peak": 1,
-      "weeksAt1": 6,
-      "cover": "covers/twoyears.jpg"
+      "weeksAt1": 1,
+      "cover": "covers/hwn.jpg"
+    }
+    {
+      "artist": "Shawn Wayne",
+      "title": "depth",
+      "sales": 32000,
+      "weeks": 36,
+      "peak": 1,
+      "weeksAt1": 11,
+      "cover": "covers/depth.jpg"
+    },
+    {
+      "artist": "dumpboii",
+      "title": "take new cassette",
+      "sales": 10000,
+      "weeks": 71,
+      "peak": 1,
+      "weeksAt1": 0,
+      "cover": "covers/tnc.jpg"
+    },
+    {
+      "artist": "dumpboii",
+      "title": "dead files 2.0",
+      "sales": 7000,
+      "weeks": 65,
+      "peak": 1,
+      "weeksAt1": 1,
+      "cover": "covers/df2.jpg"
+    }
+    {
+      "artist": "dumpboii",
+      "title": "taliband swagg",
+      "sales": 2000,
+      "weeks": 63,
+      "peak": 2,
+      "weeksAt1": 0,
+      "cover": "covers/tswagg.jpg"
+    },
+    {
+      "artist": "dumpboii",
+      "title": "I"M STAR (operation)",
+      "sales": 20000,
+      "weeks": 46,
+      "peak": 1,
+      "weeksAt1": 1,
+      "cover": "covers/imso.jpg"
+    },
+    {
+      "artist": "Yung Rollin",
+      "title": "Let The World Rollin",
+      "sales": 15000,
+      "weeks": 71,
+      "peak": 1,
+      "weeksAt1": 2,
+      "cover": "covers/ltwr.jpg"
+    }
+    {
+      "artist": "Yung Rollin",
+      "title": "THE GOAT",
+      "sales": 18000,
+      "weeks": 67,
+      "peak": 2,
+      "weeksAt1": 0,
+      "cover": "covers/thegoat.jpg"
+    },
+    {
+      "artist": "Yung Rollin, Big Waqo",
+      "title": "Rollin vs Waqo",
+      "sales": 5000,
+      "weeks": 65,
+      "peak": 1,
+      "weeksAt1": 2,
+      "cover": "covers/rvsw.jpg"
+    },
+    {
+      "artist": "inferno",
+      "title": "hyperion act 2",
+      "sales": 16000,
+      "weeks": 70,
+      "peak": 2,
+      "weeksAt1": 0,
+      "cover": "covers/HYPERION2.jpg"
+    },
+    {
+      "artist": "inferno",
+      "title": "The Struggle For Power",
+      "sales": 8000,
+      "weeks": 65,
+      "peak": 1,
+      "weeksAt1": 1,
+      "cover": "covers/tsfp.jpg"
+    },
+    {
+      "artist": "inferno",
+      "title": "HYPERION",
+      "sales": 4000,
+      "weeks": 64,
+      "peak": 1,
+      "weeksAt1": 2,
+      "cover": "covers/HYPERION.jpg"
+    }
+    {
+      "artist": "inferno",
+      "title": "runaway",
+      "sales": 3000,
+      "weeks": 64,
+      "peak": 1,
+      "weeksAt1": 2,
+      "cover": "covers/runaway.jpg"
+    },
+    {
+      "artist": "inferno",
+      "title": "Rough November, Depressed December",
+      "sales": 30000,
+      "weeks": 35,
+      "peak": 1,
+      "weeksAt1": 1,
+      "cover": "covers/rndd.jpg"
+    },
+    {
+      "artist": "2SMILEY",
+      "title": "Lost In Closed Case",
+      "sales": 1000,
+      "weeks": 69,
+      "peak": 2,
+      "weeksAt1": 0,
+      "cover": "covers/licc.jpg"
+    },
+    {
+      "artist": "2SMILEY",
+      "title": "Too high manners",
+      "sales": 2000,
+      "weeks": 68,
+      "peak": 1,
+      "weeksAt1": 2,
+      "cover": "covers/thm.jpg"
+    },
+    {
+      "artist": "2SMILEY",
+      "title": "Too High Manners II",
+      "sales": 5500,
+      "weeks": 63,
+      "peak": 1,
+      "weeksAt1": 2,
+      "cover": "covers/thm2.jpg"
+    },
+    {
+      "artist": "2SMILEY",
+      "title": "LIVE AND DIE IN LS",
+      "sales": 3500,
+      "weeks": 63,
+      "peak": 1,
+      "weeksAt1": 3,
+      "cover": "covers/ladis.jpg"
+    }
+    {
+      "artist": "2SMILEY",
+      "title": "STUCK IN THE CENTER",
+      "sales": 24000,
+      "weeks": 45,
+      "peak": 1,
+      "weeksAt1": 8,
+      "cover": "covers/sitc.jpg"
+    },
+    {
+      "artist": "2SMILEY",
+      "title": "Hellish Core",
+      "sales": 35000,
+      "weeks": 22,
+      "peak": 1,
+      "weeksAt1": 7,
+      "cover": "covers/hellishcore.jpg"
+    },
+    {
+      "artist": "Big Waqo",
+      "title": "No Body, No Crime",
+      "sales": 2100,
+      "weeks": 63,
+      "peak": 5,
+      "weeksAt1": 0,
+      "cover": "covers/nbnc.jpg"
+    },
+    {
+      "artist": "Big Waqo",
+      "title": "Giant Swagg",
+      "sales": 16300,
+      "weeks": 42,
+      "peak": 3,
+      "weeksAt1": 0,
+      "cover": "covers/giantswagg.jpg"
+    },
+    {
+      "artist": "16am",
+      "title": "Esprit de Sarcelles",
+      "sales": 1100,
+      "weeks": 63,
+      "peak": 1,
+      "weeksAt1": 1,
+      "cover": "covers/eds.jpg"
+    },
+    {
+      "artist": "watson",
+      "title": "paradise",
+      "sales": 7500,
+      "weeks": 43,
+      "peak": 3,
+      "weeksAt1": 0,
+      "cover": "covers/paradise.jpg"
+    },
+    {
+      "artist": "JNuk",
+      "title": "King Opp",
+      "sales": 11000,
+      "weeks": 37,
+      "peak": 3,
+      "weeksAt1": 0,
+      "cover": "covers/kingopp.jpg"
+    },
+    {
+      "artist": "lunaa",
+      "title": "error",
+      "sales": 40000,
+      "weeks": 1,
+      "peak": 1,
+      "weeksAt1": 1,
+      "cover": "covers/error.jpg"
+    },
+    {
+      "artist": "Lil Pri Osama",
+      "title": "Money Power Respect",
+      "sales": 10100,
+      "weeks": 45,
+      "peak": 1,
+      "weeksAt1": 1,
+      "cover": "covers/mpr.jpg"
+    },
+    {
+      "artist": "Lil Pri Osama",
+      "title": "MR DISRESPECTFUL",
+      "sales": 4600,
+      "weeks": 43,
+      "peak": 2,
+      "weeksAt1": 0,
+      "cover": "covers/mrdisrespectful.jpg"
+    },
+    {
+      "artist": "Lil Pri Osama, Timmy2Turnt, Lil G Ivy, Chief Dub 5900",
+      "title": "FOREVER MOODAWAY",
+      "sales": 21000,
+      "weeks": 35,
+      "peak": 4,
+      "weeksAt1": 0,
+      "cover": "covers/forevermoodaway.jpg"
     }
   ]
 }
-
-
-
-
