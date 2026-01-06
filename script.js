@@ -27,7 +27,7 @@ fetch("data.json")
         </div>
 
         <div class="chart-stats">
-          <div><b>${item.weeks}</b><span>недель</span></div>
+          <div><b>${item.weeks}</b><span>недель в чарте</span></div>
           <div><b>${item.peak}</b><span>пик</span></div>
           <div><b>${item.weeksAt1}</b><span>нед. #1</span></div>
         </div>
@@ -36,6 +36,7 @@ fetch("data.json")
       list.appendChild(card);
     });
   });
+
 
 
 
