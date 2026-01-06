@@ -34,5 +34,4 @@ fetch("data.json")
     });
   });
 
-<!-- redeploy -->
 
