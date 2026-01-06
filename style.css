@@ -7,7 +7,9 @@ body {
 
 .hero {
   height: 100vh;
-  background: radial-gradient(circle at top, #222, #000);
+  background:
+    linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.95)),
+    url("covers/city.jpg") center/cover no-repeat;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,6 +21,9 @@ body {
   font-size: 90px;
   letter-spacing: 8px;
   color: #f1c40f;
+  text-shadow:
+    0 0 10px rgba(241,196,15,0.4),
+    0 0 30px rgba(241,196,15,0.2);
 }
 
 .hero p {
@@ -146,5 +151,6 @@ footer {
   object-fit: cover;
   border-radius: 8px;
 }
+
 
 
