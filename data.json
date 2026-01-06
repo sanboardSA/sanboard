@@ -9,7 +9,6 @@
       "weeks": 6,
       "peak": 1,
       "weeksAt1": 6
-      "cover": "covers/decay.png"
     },
     {
       "artist": "bitterslay",
@@ -18,7 +17,6 @@
       "weeks": 8,
       "peak": 1,
       "weeksAt1": 5
-      "cover": "covers/afterhours.jpg"
     },
     {
       "artist": "bitterslay",
@@ -27,7 +25,6 @@
       "weeks": 10,
       "peak": 1,
       "weeksAt1": 5
-      "cover": "covers/endersly.png"
     },
     {
       "artist": "bitterslay",
@@ -36,7 +33,6 @@
       "weeks": 20,
       "peak": 1,
       "weeksAt1": 7
-      "cover": "covers/crash.jpg"
     },
     {
       "artist": "B'HAD feat. Dam'",
@@ -45,7 +41,6 @@
       "weeks": 18,
       "peak": 6,
       "weeksAt1": 0
-      "cover": "covers/faceup.jpg"
     },
     {
       "artist": "lunaa",
@@ -54,7 +49,6 @@
       "weeks": 9,
       "peak": 1,
       "weeksAt1": 5
-      "cover": "covers/missu.png"
     },
     {
       "artist": "lunaa",
@@ -63,7 +57,6 @@
       "weeks": 14,
       "peak": 1,
       "weeksAt1": 5
-      "cover": "covers/hurtme.png"
     },
     {
       "artist": "2SMILEY",
@@ -72,7 +65,6 @@
       "weeks": 30,
       "peak": 1,
       "weeksAt1": 8
-      "cover": "covers/yourname.jpg"
     },
     {
       "artist": "Lil Million",
@@ -81,7 +73,6 @@
       "weeks": 1,
       "peak": 9,
       "weeksAt1": 0
-      "cover": "covers/humble.jpg"
     },
     {
       "artist": "Lume",
@@ -90,7 +81,6 @@
       "weeks": 2,
       "peak": 8,
       "weeksAt1": 0
-      "cover": "covers/twoyears.jpg"
     }
   ],
 
@@ -105,5 +95,6 @@
     }
   ]
 }
+
 
 
