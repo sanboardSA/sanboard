@@ -16,7 +16,10 @@ fetch("data.json")
       card.innerHTML = `
         <div class="chart-rank">${pos}</div>
 
-        <div class="chart-cover"></div>
+        <div class="chart-cover">
+          <img src="${item.cover}" alt="${item.title}">
+        </div>
+
 
         <div class="chart-info">
           <div class="chart-title">${item.title}</div>
@@ -33,5 +36,6 @@ fetch("data.json")
       list.appendChild(card);
     });
   });
+
 
 
