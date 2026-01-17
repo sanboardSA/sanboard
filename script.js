@@ -1,41 +1,52 @@
 fetch("data.json")
   .then(res => res.json())
   .then(data => {
-    const list = document.getElementById("chart");
-    const type = list.dataset.type;
 
-    let items = data[type];
-    items.sort((a, b) => b.sales - a.sales);
+    /* =========================
+       ЧАРТЫ (Hot 10 / Global 30)
+       ========================= */
 
-    items.forEach((item, index) => {
-      const pos = index + 1;
+    const chart = document.getElementById("chart");
 
-      const card = document.createElement("div");
-      card.className = "chart-card";
+    if (chart) {
+      const type = chart.dataset.type;
+      let items = data[type];
 
-      card.innerHTML = `
-        <div class="chart-rank">${pos}</div>
+      items.sort((a, b) => b.sales - a.sales);
 
-        <div class="chart-cover">
-          <img src="${item.cover}" alt="${item.title}">
-        </div>
+      items.forEach((item, index) => {
+        const pos = index + 1;
 
+        const card = document.createElement("div");
+        card.className = "chart-card";
 
-        <div class="chart-info">
-          <div class="chart-title">${item.title}</div>
-          <div class="chart-artist">${item.artist}</div>
-        </div>
+        card.innerHTML = `
+          <div class="chart-rank">${pos}</div>
 
-        <div class="chart-stats">
-          <div><b>${item.weeks}</b><span>недель в чарте</span></div>
-          <div><b>${item.peak}</b><span>пик</span></div>
-          <div><b>${item.weeksAt1}</b><span>нед. #1</span></div>
-        </div>
-      `;
+          <div class="chart-cover">
+            <img src="${item.cover}" alt="${item.title}">
+          </div>
 
-      list.appendChild(card);
-    });
-  }
+          <div class="chart-info">
+            <div class="chart-title">${item.title}</div>
+            <div class="chart-artist">${item.artist}</div>
+          </div>
+
+          <div class="chart-stats">
+            <div><b>${item.weeks}</b><span>недель</span></div>
+            <div><b>${item.peak}</b><span>пик</span></div>
+            <div><b>${item.weeksAt1}</b><span>нед. #1</span></div>
+          </div>
+        `;
+
+        chart.appendChild(card);
+      });
+    }
+
+    /* =========================
+       АРТИСТЫ
+       ========================= */
+
     const artistsList = document.getElementById("artists");
 
     if (artistsList) {
