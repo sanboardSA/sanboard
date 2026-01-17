@@ -366,25 +366,70 @@
       "cover": "covers/rvsw.jpg"
     }
   ],
-  
-    "artists": [
+      "artists": [
     {
-      "name": "Gedo",
-      "avatar": "artists/rvsw.jpg",
-      "listeners": 52000000
+      "name": "lunaa",
+      "avatar": "artists/lunaa.jpg",
+      "listeners": 20300000
     },
     {
-      "name": "Jenye",
-      "avatar": "artists/rvsw.jpg",
-      "listeners": 38700000
+      "name": "2SMILEY",
+      "avatar": "artists/2smiley.jpg",
+      "listeners": 13800000
     },
     {
-      "name": "Lil Uzi",
-      "avatar": "artists/rvsw.jpg",
-      "listeners": 21400000
+      "name": "inferno",
+      "avatar": "artists/inferno.jpg",
+      "listeners": 9600000
+    },
+    {
+      "name": "dumpboii",
+      "avatar": "artists/dumpboii.jpg",
+      "listeners": 7400000
+    },
+    {
+      "name": "Shawn Wayne",
+      "avatar": "artists/shawnwayne.jpg",
+      "listeners": 6800000
+    },
+    {
+      "name": "Yung Rollin",
+      "avatar": "artists/yungrollin.jpg",
+      "listeners": 5900000
+    },
+    {
+      "name": "bitterslay",
+      "avatar": "artists/bitterslay.jpg",
+      "listeners": 5200000
+    },
+    {
+      "name": "Lil Pri Osama",
+      "avatar": "artists/lilpriosama.jpg",
+      "listeners": 4400000
+    },
+    {
+      "name": "Big Waqo",
+      "avatar": "artists/bigwaqo.jpg",
+      "listeners": 3100000
+    },
+    {
+      "name": "suicide.idol",
+      "avatar": "artists/suicideidol.jpg",
+      "listeners": 2100000
+    },
+    {
+      "name": "Lil Million",
+      "avatar": "artists/lilmillion.jpg",
+      "listeners": 1850000
+    },
+    {
+      "name": "watson",
+      "avatar": "artists/watson.jpg",
+      "listeners": 1600000
     }
   ] 
 }
+
 
 
 
