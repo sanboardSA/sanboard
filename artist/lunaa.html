@@ -2,45 +2,68 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <title>lunaa — Sanboard Artist</title>
+  <title>Lunaa</title>
   <link rel="stylesheet" href="../style.css">
+  <script defer src="../script.js"></script>
 </head>
-<body>
 
-<!-- ВЕРХНИЙ БЛОК -->
-<div class="artist-header">
-  <button class="back-btn" onclick="window.location.href='../artists.html'">← Назад</button>
+<body class="artist-page" data-artist="Lunaa">
 
-  <div class="artist-info-top">
-    <div class="artist-avatar-large">
-      <img src="covers/artists/lunaa.png" alt="lunaa">
-    </div>
+<!-- 🔙 Назад -->
+<a href="../artists.html" class="back-btn">←</a>
 
-    <div class="artist-details">
-      <div class="artist-name-large">lunaa</div>
-      <a class="artist-social" href="https://instagram.com/lunaa" target="_blank">Instagram</a>
-    </div>
+<!-- 👤 Хедер артиста -->
+<section class="artist-header">
 
-    <div class="artist-stats-top">
-      <div class="artist-listeners-large">20,300,000 слушателей / мес</div>
-    </div>
+  <div class="artist-photo">
+    <img src="../img/artists/lunaa.jpg" alt="Lunaa">
   </div>
-</div>
 
-<!-- ДЕКОРАТИВНАЯ ПОЛОСА -->
-<div class="artist-divider"></div>
+  <div class="artist-main">
+    <h1 class="artist-name">Lunaa</h1>
+    <a href="#" class="artist-social" id="artist-social">Instagram</a>
+  </div>
 
-<!-- КНОПКИ ПЕРЕКЛЮЧЕНИЯ -->
-<div class="artist-tabs">
-  <button class="artist-tab active" data-type="albums">Albums</button>
-  <button class="artist-tab" data-type="singles">Singles</button>
-</div>
+  <div class="artist-listeners" id="artist-listeners">
+    <!-- подгрузится из data.json -->
+  </div>
 
-<!-- КАТАЛОГ -->
-<section class="artist-catalog">
-  <div id="artist-projects"></div>
 </section>
 
-<script src="../artist.js"></script>
+<hr>
+
+<!-- 🎛 Переключатель -->
+<div class="artist-tabs">
+  <button class="tab-btn active" data-tab="albums">Albums</button>
+  <button class="tab-btn" data-tab="singles">Singles</button>
+</div>
+
+<!-- 📀 АЛЬБОМЫ (ТЫ ЗАПОЛНЯЕШЬ) -->
+<section class="tab-content active" id="albums">
+
+  <div class="project">
+    <div class="project-header">
+      <img src="../img/covers/example.jpg">
+      <span class="project-title">Moonlight</span>
+      <span class="project-date">2024</span>
+    </div>
+
+    <div class="tracks">
+      <div class="track">
+        <span>1</span>
+        <span>Intro</span>
+        <span>1:32</span>
+        <span class="lyrics-btn">lyrics</span>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- 🎵 СИНГЛЫ -->
+<section class="tab-content" id="singles">
+  <!-- ты добавишь -->
+</section>
+
 </body>
 </html>
