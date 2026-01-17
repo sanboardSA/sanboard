@@ -365,8 +365,27 @@
       "weeksAt1": 2,
       "cover": "covers/rvsw.jpg"
     }
-  ]
+  ],
+  
+    "artists": [
+    {
+      "name": "Gedo",
+      "avatar": "artists/gedo.jpg",
+      "listeners": 52000000
+    },
+    {
+      "name": "Jenye",
+      "avatar": "artists/jenye.jpg",
+      "listeners": 38700000
+    },
+    {
+      "name": "Lil Uzi",
+      "avatar": "artists/liluzi.jpg",
+      "listeners": 21400000
+    }
+  ] 
 }
+
 
 
 
