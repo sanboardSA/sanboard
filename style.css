@@ -324,3 +324,63 @@ body::after {
   font-size: 15px;
   font-weight: 500;
 }
+
+/* ===== ARTIST PROFILE ===== */
+.artist-profile {
+  padding: 60px 12%;
+  display: flex;
+  justify-content: center;
+}
+
+.artist-profile-inner {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  background: linear-gradient(145deg, #141414, #0d0d0d);
+  border-radius: 16px;
+  padding: 30px 40px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.6);
+}
+
+.artist-profile-avatar {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid #f1c40f;
+  flex-shrink: 0;
+}
+
+.artist-profile-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.artist-profile-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.artist-profile-info h2 {
+  font-size: 32px;
+  color: #f1c40f;
+  margin: 0;
+}
+
+.artist-profile-stats {
+  font-size: 16px;
+  opacity: 0.7;
+}
+
+.artist-profile-link {
+  font-size: 16px;
+  color: #f1c40f;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.artist-profile-link:hover {
+  text-decoration: underline;
+}
