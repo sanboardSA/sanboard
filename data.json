@@ -370,21 +370,22 @@
     "artists": [
     {
       "name": "Gedo",
-      "avatar": "artists/gedo.jpg",
+      "avatar": "artists/rvsw.jpg",
       "listeners": 52000000
     },
     {
       "name": "Jenye",
-      "avatar": "artists/jenye.jpg",
+      "avatar": "artists/rvsw.jpg",
       "listeners": 38700000
     },
     {
       "name": "Lil Uzi",
-      "avatar": "artists/liluzi.jpg",
+      "avatar": "artists/rvsw.jpg",
       "listeners": 21400000
     }
   ] 
 }
+
 
 
 
