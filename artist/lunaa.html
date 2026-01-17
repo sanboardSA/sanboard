@@ -2,125 +2,45 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <title>Lunaa — Sanboard Artist</title>
+  <title>lunaa — Sanboard Artist</title>
   <link rel="stylesheet" href="../style.css">
 </head>
 <body>
 
-  <div class="hero small">
-    <h1>Lunaa</h1>
-    <div class="hero-buttons">
-      <a href="../index.html">Главная</a>
-      <a href="../hot10.html">Sanboard Hot 10</a>
-      <a href="../global30.html">Sanboard Global 30</a>
-      <a href="../artists.html">Артисты</a>
+<!-- ВЕРХНИЙ БЛОК -->
+<div class="artist-header">
+  <button class="back-btn" onclick="window.location.href='../artists.html'">← Назад</button>
+
+  <div class="artist-info-top">
+    <div class="artist-avatar-large">
+      <img src="covers/artists/lunaa.png" alt="lunaa">
+    </div>
+
+    <div class="artist-details">
+      <div class="artist-name-large">lunaa</div>
+      <a class="artist-social" href="https://instagram.com/lunaa" target="_blank">Instagram</a>
+    </div>
+
+    <div class="artist-stats-top">
+      <div class="artist-listeners-large">20,300,000 слушателей / мес</div>
     </div>
   </div>
+</div>
 
-  <section class="artist-profile">
-    <div class="artist-profile-inner">
-      <!-- Аватарка -->
-      <div class="artist-profile-avatar">
-        <img src="../covers/artists/lunaa.jpg" alt="Lunaa">
-      </div>
+<!-- ДЕКОРАТИВНАЯ ПОЛОСА -->
+<div class="artist-divider"></div>
 
-      <!-- Информация -->
-      <div class="artist-profile-info">
-        <h2 id="artist-name">Lunaa</h2>
-        <div id="artist-listeners" class="artist-profile-stats">Ежемесячные слушатели: —</div>
-        <a class="artist-profile-link" href="https://instagram.com/lunaa" target="_blank">Instagram</a>
-      </div>
-    </div>
-  </section>
+<!-- КНОПКИ ПЕРЕКЛЮЧЕНИЯ -->
+<div class="artist-tabs">
+  <button class="artist-tab active" data-type="albums">Albums</button>
+  <button class="artist-tab" data-type="singles">Singles</button>
+</div>
 
-  <section class="artist-catalog">
-    <div class="catalog-switch">
-      <button class="active" data-type="albums">Альбомы</button>
-      <button data-type="singles">Синглы</button>
-    </div>
+<!-- КАТАЛОГ -->
+<section class="artist-catalog">
+  <div id="artist-projects"></div>
+</section>
 
-    <div id="artist-projects">
-      <!-- Ты будешь вручную вставлять сюда альбомы/синглы -->
-      <div class="artist-project" data-type="album">
-        <!-- Верхняя полоска проекта -->
-        <div class="project-header">
-          <div class="project-cover">
-            <img src="../covers/error.png" alt="Название альбома">
-          </div>
-          <div class="project-info">
-            <div class="project-title">error</div>
-            <div class="project-release">Дата выхода: 2026-01-01</div>
-          </div>
-        </div>
-      
-        <!-- Скрытый список треков -->
-        <div class="project-tracks" style="display: none;">
-          <div class="track">
-            <div class="track-num">1</div>
-            <div class="track-title">Название трека</div>
-            <div class="track-duration">3:45</div>
-            <button class="lyrics-btn" data-lyrics="Текст песни здесь">Lyrics</button>
-          </div>
-          <div class="track">
-            <div class="track-num">2</div>
-            <div class="track-title">Название второго трека</div>
-            <div class="track-duration">4:10</div>
-            <button class="lyrics-btn" data-lyrics="Текст второго трека">Lyrics</button>
-          </div>
-          <!-- Добавляй столько треков, сколько нужно -->
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <footer>
-    © 2026 Sanboard Magazine
-  </footer>
-
-  <script>
-    // JS для подгрузки слушателей из data.json
-    fetch("../data.json")
-      .then(res => res.json())
-      .then(data => {
-        const artist = data.artists.find(a => a.name === "Lunaa");
-        if (artist) {
-          document.getElementById("artist-listeners").textContent =
-            `Ежемесячные слушатели: ${artist.listeners.toLocaleString()}`;
-        }
-      });
-  </script>
-
-  <script>
-  // Раскрытие/сокрытие треков при клике на проект
-  document.querySelectorAll(".project-header").forEach(header => {
-    header.addEventListener("click", () => {
-      const tracks = header.nextElementSibling;
-      tracks.style.display = tracks.style.display === "none" ? "block" : "none";
-    });
-  });
-
-  // Показ текста песни при клике на Lyrics
-  document.querySelectorAll(".lyrics-btn").forEach(btn => {
-    btn.addEventListener("click", e => {
-      const lyrics = btn.dataset.lyrics;
-      alert(lyrics); // простое окошко, позже можно заменить на модальное
-    });
-  });
-
-  // Переключение Альбомы / Синглы
-  const switches = document.querySelectorAll(".catalog-switch button");
-  switches.forEach(btn => {
-    btn.addEventListener("click", () => {
-      switches.forEach(b => b.classList.remove("active"));
-      btn.classList.add("active");
-
-      const type = btn.dataset.type;
-      document.querySelectorAll(".artist-project").forEach(p => {
-        p.style.display = p.dataset.type === type ? "block" : "none";
-      });
-    });
-  });
-</script>
-
+<script src="../artist.js"></script>
 </body>
 </html>
