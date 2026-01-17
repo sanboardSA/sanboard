@@ -371,7 +371,7 @@
       "name": "lunaa",
       "avatar": "covers/artists/lunaa.png",
       "listeners": 20300000,
-      "page": "artist/lunaa.html",
+      "page": "lunaa.html",
       "social": "https://tagger.su/lunaa"
     },
     {
@@ -431,6 +431,7 @@
     }
   ] 
 }
+
 
 
 
