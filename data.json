@@ -377,7 +377,9 @@
     {
       "name": "2SMILEY",
       "avatar": "covers/artists/2smiley.jpg",
-      "listeners": 13800000
+      "listeners": 13800000,
+      "page": "2SMILEY.html",
+      "social": "https://tagger.su/2smiley"
     },
     {
       "name": "inferno",
@@ -431,6 +433,7 @@
     }
   ] 
 }
+
 
 
 
