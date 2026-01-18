@@ -396,7 +396,9 @@
     {
       "name": "Shawn Wayne",
       "avatar": "covers/artists/shawnwayne.png",
-      "listeners": 6800000
+      "listeners": 6800000,
+      "page": "shawnwayne.html",
+      "social": "https://tagger.su/shawnwayne"
     },
     {
       "name": "Yung Rollin",
@@ -435,6 +437,7 @@
     }
   ] 
 }
+
 
 
 
