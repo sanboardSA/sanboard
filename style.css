@@ -639,3 +639,14 @@ body::after {
 .lyrics-close:hover {
   color: #fff;
 }
+
+.about-box {
+  background: #111;
+  border: 1px solid #f1c40f;
+  border-radius: 14px;
+  padding: 20px 24px;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #f1c40f;
+  max-width: 700px;
+}
