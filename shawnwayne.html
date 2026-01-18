@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Shawn Wayne</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+
+<body class="artist-page" data-artist="Shawn Wayne">
+
+<!-- 🔙 Назад -->
+<a href="artists.html" class="back-btn">←</a>
+
+<!-- 👤 Хедер артиста -->
+<section class="artist-header">
+
+  <div class="artist-photo">
+    <img src="covers/artists/shawnwayne.png" alt="Shawn Wayne">
+  </div>
+
+  <div class="artist-main">
+    <h1 class="artist-name">Shawn Wayne</h1>
+    <a href="https://tagger.su/shawnwayne" class="artist-social" id="artist-social">Tagger</a>
+  </div>
+
+  <div class="artist-listeners" id="artist-listeners">
+    <!-- подгрузится из data.json -->
+  </div>
+
+</section>
+
+<hr>
+
+<!-- 🎛 Переключатель -->
+<div class="artist-tabs">
+  <button class="tab-btn active" data-tab="albums">Albums</button>
+  <button class="tab-btn" data-tab="singles">Singles</button>
+  <button class="tab-btn" data-tab="about">About</button>
+</div>
+
+  <!-- БИО -->
+<section class="tab-content" id="about">
+  <div class="about-box">
+  <p><strong>Shawn Wayne</strong> (Настоящее имя — Шон Терренс Уэйн) — американский рэпер, исполнитель и автор песен.</p> 
+
+  <p><strong>Биография</strong><br>
+  Родился 11 августа 1999 года в г. Лос Сантос (Сан Андреас, США). Карьеру начал в школьном возрасте, учавствуя в рэп-баттлах.
+  Творчество Шона охватывает довольно широкий спектр тем, таких как политика, психотерапия, религия, семья. Среди используемых жанров можно выделить: 
+  West Coast Hip Hop, Conscious Hip Hop, Jazz Rap, Alternative Rap. В начале 2025 года от жены Мелоди Уэйн у артиста родился сын Уэстон Уэйн.</p>
+
+  <p><strong>Награды</strong><br>
+    Запись года 2024 - I Have Some Shit To Adress<br>
+    Лучшая рэп запись года 2024 - I Have Some Shit To Adress</p>
+  </div>
+</section>
+  
+<!-- АЛЬБОМЫ -->
+<section class="tab-content active" id="albums">
+
+  <div class="project">
+    <div class="project-header">
+      <img src="covers/error.jpg">
+      <span class="project-title">error</span>
+      <span class="project-date">12.30.2025</span>
+    </div>
+
+    <div class="tracks">
+      <div class="track">
+        <span>1.</span>
+        <span>505</span>
+        <span>3:00</span>
+        <span class="lyrics-btn"
+              data-lyrics="Clear">
+          lyrics
+        </span>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- СИНГЛЫ -->
+<section class="tab-content" id="singles">
+  
+  <div class="project">
+    <div class="project-header">
+      <img src="covers/hurtme.png">
+      <span class="project-title">HURT ME</span>
+      <span class="project-date">09.27.2025</span>
+    </div>
+    <div class="tracks">
+      <div class="track">
+        <span>1.</span>
+        <span>HURT ME</span>
+        <span>2:09</span>
+        <span class="lyrics-btn"
+              data-lyrics="Clear">
+          lyrics
+        </span>
+      </div>
+    </div>
+  </div>
+  
+</section>
+
+<div class="lyrics-modal" id="lyrics-modal">
+  <div class="lyrics-box">
+    <span class="lyrics-close" id="lyrics-close">×</span>
+    <pre class="lyrics-text" id="lyrics-text"></pre>
+  </div>
+</div>
+  
+</body>
+</html>
