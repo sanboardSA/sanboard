@@ -135,15 +135,36 @@ fetch("data.json")
       });
 
       // ======= Кнопки lyrics =======
+      const modal = document.getElementById("lyrics-modal");
+      const modalText = document.getElementById("lyrics-text");
+      const modalClose = document.getElementById("lyrics-close");
+      
       document.querySelectorAll(".lyrics-btn").forEach(btn => {
         btn.addEventListener("click", e => {
-          e.stopPropagation(); // чтобы клик по треку не раскрыл его
-          alert("Здесь будет текст песни");
+          e.stopPropagation();
+      
+          const text = btn.dataset.lyrics;
+          if (!text) return;
+      
+          modalText.textContent = text;
+          modal.classList.add("active");
         });
       });
+      
+      modalClose.addEventListener("click", () => {
+        modal.classList.remove("active");
+      });
+      
+      modal.addEventListener("click", e => {
+        if (e.target === modal) {
+          modal.classList.remove("active");
+        }
+      });
+
 
     }
 
   });
+
 
 
