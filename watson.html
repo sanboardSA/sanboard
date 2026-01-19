@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>watson</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+
+<body class="artist-page" data-artist="watson">
+
+<!-- 🔙 Назад -->
+<a href="artists.html" class="back-btn">←</a>
+
+<!-- 👤 Хедер артиста -->
+<section class="artist-header">
+
+  <div class="artist-photo">
+    <img src="covers/artists/watson.jpg" alt="watson">
+  </div>
+
+  <div class="artist-main">
+    <h1 class="artist-name">watson</h1>
+    <a href="https://tagger.su/watson" class="artist-social" id="artist-social">Tagger</a>
+  </div>
+
+  <div class="artist-listeners" id="artist-listeners">
+    <!-- подгрузится из data.json -->
+  </div>
+
+</section>
+
+<hr>
+
+<!-- 🎛 Переключатель -->
+<div class="artist-tabs">
+  <button class="tab-btn active" data-tab="albums">Albums</button>
+  <button class="tab-btn" data-tab="singles">Singles</button>
+  <button class="tab-btn" data-tab="about">About</button>
+</div>
+
+  <!-- БИО -->
+<section class="tab-content" id="about">
+  <div class="about-box">
+  <p><strong>watson</strong> (Настоящее имя — Арло Ватсон) — американский рэпер, исполнитель и автор песен. Работает в жанрах трэп, плагг и ньювейв.</p> 
+
+  <p><strong>Биография</strong><br>
+  Родился 15 Августа 2006 года в Лос-Сантосе (Сан Андреас, США).</p>
+
+  <p><strong>Награды</strong><br>
+    Отсутствуют</p>
+  </div>
+</section>
+  
+<!-- АЛЬБОМЫ -->
+<section class="tab-content active" id="albums">
+
+  <div class="project">
+    <div class="project-header">
+      <img src="covers/paradise.jpg">
+      <span class="project-title">paradise</span>
+      <span class="project-date">03.03.2025</span>
+    </div>
+    <div class="tracks">
+      <div class="track">
+        <span>1.</span>
+        <span>dirty money</span>
+        <span>2:19</span>
+        <span class="lyrics-btn"
+              data-lyrics="Clear">
+          lyrics
+        </span>
+      </div>
+      <div class="track">
+        <span>2.</span>
+        <span>bustdown</span>
+        <span>2:36</span>
+        <span class="lyrics-btn"
+              data-lyrics="Clear">
+          lyrics
+        </span>
+      </div>
+      <div class="track">
+        <span>3.</span>
+        <span>kwua</span>
+        <span>1:57</span>
+        <span class="lyrics-btn"
+              data-lyrics="Clear">
+          lyrics
+        </span>
+      </div>
+      <div class="track">
+        <span>4.</span>
+        <span>allstar</span>
+        <span>1:56</span>
+        <span class="lyrics-btn"
+              data-lyrics="Clear">
+          lyrics
+        </span>
+      </div>
+      <div class="track">
+        <span>5.</span>
+        <span>birthday party</span>
+        <span>2:05</span>
+        <span class="lyrics-btn"
+              data-lyrics="Clear">
+          lyrics
+        </span>
+      </div>
+      <div class="track">
+        <span>6.</span>
+        <span>blessed</span>
+        <span>1:49</span>
+        <span class="lyrics-btn"
+              data-lyrics="Clear">
+          lyrics
+        </span>
+      </div>
+      <div class="track">
+        <span>7.</span>
+        <span>throw sum</span>
+        <span>1:52</span>
+        <span class="lyrics-btn"
+              data-lyrics="Clear">
+          lyrics
+        </span>
+      </div>
+      <div class="track">
+        <span>8.</span>
+        <span>handouts</span>
+        <span>2:26</span>
+        <span class="lyrics-btn"
+              data-lyrics="Clear">
+          lyrics
+        </span>
+      </div>
+      <div class="track">
+        <span>9.</span>
+        <span>trap ghoul</span>
+        <span>2:09</span>
+        <span class="lyrics-btn"
+              data-lyrics="Clear">
+          lyrics
+        </span>
+      </div>
+      <div class="track">
+        <span>10.</span>
+        <span>take that risk</span>
+        <span>3:00</span>
+        <span class="lyrics-btn"
+              data-lyrics="Clear">
+          lyrics
+        </span>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- СИНГЛЫ -->
+<section class="tab-content" id="singles">
+  
+</section>
+
+<div class="lyrics-modal" id="lyrics-modal">
+  <div class="lyrics-box">
+    <span class="lyrics-close" id="lyrics-close">×</span>
+    <pre class="lyrics-text" id="lyrics-text"></pre>
+  </div>
+</div>
+  
+</body>
+</html>
