@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>suicide.idol</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+
+<body class="artist-page" data-artist="suicide.idol">
+
+<!-- 🔙 Назад -->
+<a href="artists.html" class="back-btn">←</a>
+
+<!-- 👤 Хедер артиста -->
+<section class="artist-header">
+
+  <div class="artist-photo">
+    <img src="covers/artists/suicideidol.png" alt="suicide.idol">
+  </div>
+
+  <div class="artist-main">
+    <h1 class="artist-name">suicide.idol</h1>
+    <a href="https://tagger.su/carmilla" class="artist-social" id="artist-social">Tagger</a>
+  </div>
+
+  <div class="artist-listeners" id="artist-listeners">
+    <!-- подгрузится из data.json -->
+  </div>
+
+</section>
+
+<hr>
+
+<!-- 🎛 Переключатель -->
+<div class="artist-tabs">
+  <button class="tab-btn active" data-tab="albums">Albums</button>
+  <button class="tab-btn" data-tab="singles">Singles</button>
+  <button class="tab-btn" data-tab="about">About</button>
+</div>
+
+  <!-- БИО -->
+<section class="tab-content" id="about">
+  <div class="about-box">
+  <p><strong>Suicide.idol</strong> (Настоящее имя — Кармилла Мун) — Ирландская исполнительница, певица и автор песен. Работает в жанрах Хип-хоп, фонк, Дарквейв.</p> 
+
+  <p><strong>Биография</strong><br>
+  Родилась 14 Августа 2000 года в Уотерфорд (Ирландия).</p>
+
+  <p><strong>Награды</strong><br>
+    Отсутствуют</p>
+  </div>
+</section>
+  
+<!-- АЛЬБОМЫ -->
+<section class="tab-content active" id="albums">
+
+</section>
+
+<!-- СИНГЛЫ -->
+<section class="tab-content" id="singles">
+  
+  <div class="project">
+    <div class="project-header">
+      <img src="covers/cards/suicideidolnorth.png">
+      <span class="project-title">north</span>
+      <span class="project-date">01.10.2026</span>
+    </div>
+    <div class="tracks">
+      <div class="track">
+        <span>1.</span>
+        <span>north</span>
+        <span>2:59</span>
+        <span class="lyrics-btn" data-lyrics="Clear">
+          lyrics
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="project">
+    <div class="project-header">
+      <img src="covers/cards/suicideidoljail.png">
+      <span class="project-title">jail</span>
+      <span class="project-date">01.18.2026</span>
+    </div>
+    <div class="tracks">
+      <div class="track">
+        <span>1.</span>
+        <span>jail</span>
+        <span>2:07</span>
+        <span class="lyrics-btn" data-lyrics="Clear">
+          lyrics
+        </span>
+      </div>
+    </div>
+  </div>
+  
+</section>
+
+<div class="lyrics-modal" id="lyrics-modal">
+  <div class="lyrics-box">
+    <span class="lyrics-close" id="lyrics-close">×</span>
+    <pre class="lyrics-text" id="lyrics-text"></pre>
+  </div>
+</div>
+  
+</body>
+</html>
