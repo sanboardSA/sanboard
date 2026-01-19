@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>bitterslay</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+
+<body class="artist-page" data-artist="bitterslay">
+
+<!-- 🔙 Назад -->
+<a href="artists.html" class="back-btn">←</a>
+
+<!-- 👤 Хедер артиста -->
+<section class="artist-header">
+
+  <div class="artist-photo">
+    <img src="covers/artists/bitterslay.jpg" alt="bitterslay">
+  </div>
+
+  <div class="artist-main">
+    <h1 class="artist-name">bitterslay</h1>
+    <a href="https://tagger.su/amirka" class="artist-social" id="artist-social">Tagger</a>
+  </div>
+
+  <div class="artist-listeners" id="artist-listeners">
+    <!-- подгрузится из data.json -->
+  </div>
+
+</section>
+
+<hr>
+
+<!-- 🎛 Переключатель -->
+<div class="artist-tabs">
+  <button class="tab-btn active" data-tab="albums">Albums</button>
+  <button class="tab-btn" data-tab="singles">Singles</button>
+  <button class="tab-btn" data-tab="about">About</button>
+</div>
+
+  <!-- БИО -->
+<section class="tab-content" id="about">
+  <div class="about-box">
+  <p><strong>bitterslay</strong> (Настоящее имя — Амира Элькей) — Французкая исполнительница, певица и автор песен. Работает в жанрах Хип-хоп, пост-панк.</p> 
+
+  <p><strong>Биография</strong><br>
+  Родилась 8 Ноября 2002 года в Лос Сантосе (Сан Андреас, Сша).</p>
+
+  <p><strong>Награды</strong><br>
+    Отсутствуют</p>
+  </div>
+</section>
+  
+<!-- АЛЬБОМЫ -->
+<section class="tab-content active" id="albums">
+
+</section>
+
+<!-- СИНГЛЫ -->
+<section class="tab-content" id="singles">
+
+  <div class="project">
+    <div class="project-header">
+      <img src="covers/cards/bitterslaytcc.png">
+      <span class="project-title">the crimson crown</span>
+      <span class="project-date">08.02.2025</span>
+    </div>
+    <div class="tracks">
+      <div class="track">
+        <span>1.</span>
+        <span>the crimson crown</span>
+        <span>3:26</span>
+        <span class="lyrics-btn" data-lyrics="Clear">
+          lyrics
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="project">
+    <div class="project-header">
+      <img src="covers/crash.jpg">
+      <span class="project-title">crash</span>
+      <span class="project-date">08.21.2025</span>
+    </div>
+    <div class="tracks">
+      <div class="track">
+        <span>1.</span>
+        <span>crash</span>
+        <span>3:04</span>
+        <span class="lyrics-btn" data-lyrics="Clear">
+          lyrics
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="project">
+    <div class="project-header">
+      <img src="covers/endersly.png">
+      <span class="project-title">endersly</span>
+      <span class="project-date">10.29.2025</span>
+    </div>
+    <div class="tracks">
+      <div class="track">
+        <span>1.</span>
+        <span>endersly</span>
+        <span>2:18</span>
+        <span class="lyrics-btn" data-lyrics="Clear">
+          lyrics
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="project">
+    <div class="project-header">
+      <img src="covers/afterhours.jpg">
+      <span class="project-title">after hours</span>
+      <span class="project-date">11.13.2025</span>
+    </div>
+    <div class="tracks">
+      <div class="track">
+        <span>1.</span>
+        <span>after hours</span>
+        <span>3:30</span>
+        <span class="lyrics-btn" data-lyrics="Clear">
+          lyrics
+        </span>
+      </div>
+    </div>
+  </div>
+  
+</section>
+
+<div class="lyrics-modal" id="lyrics-modal">
+  <div class="lyrics-box">
+    <span class="lyrics-close" id="lyrics-close">×</span>
+    <pre class="lyrics-text" id="lyrics-text"></pre>
+  </div>
+</div>
+  
+</body>
+</html>
