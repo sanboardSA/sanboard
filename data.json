@@ -1,96 +1,96 @@
 {
-  "currentWeek": 2,
+  "currentWeek": 3,
 
   "singles": [
     {
+      "artist": "suicide.idol",
+      "title": "jail",
+      "sales": 62000,
+      "weeks": 1,
+      "peak": 1,
+      "weeksAt1": 1,
+      "cover": "covers/cards/suicideidoljail.png"
+    },
+    {
       "artist": "lunaa",
       "title": "decay",
-      "sales": 51000,
-      "weeks": 7,
+      "sales": 54000,
+      "weeks": 8,
       "peak": 1,
       "weeksAt1": 7,
       "cover": "covers/decay.png"
     },
     {
-      "artist": "bitterslay",
-      "title": "after hours",
-      "sales": 37000,
-      "weeks": 9,
-      "peak": 1,
-      "weeksAt1": 5,
-      "cover": "covers/afterhours.jpg"
-    },
-    {
       "artist": "lunaa",
       "title": "miss u",
-      "sales": 33000,
-      "weeks": 10,
+      "sales": 36000,
+      "weeks": 11,
       "peak": 1,
       "weeksAt1": 5,
       "cover": "covers/missu.png"
     },
     {
       "artist": "bitterslay",
+      "title": "after hours",
+      "sales": 39000,
+      "weeks": 10,
+      "peak": 1,
+      "weeksAt1": 5,
+      "cover": "covers/afterhours.jpg"
+    },
+    {
+      "artist": "bitterslay",
       "title": "endersly",
-      "sales": 30000,
-      "weeks": 11,
+      "sales": 32500,
+      "weeks": 12,
       "peak": 1,
       "weeksAt1": 5,
       "cover": "covers/endersly.png"
     },
     {
-      "artist": "bitterslay",
-      "title": "crash",
-      "sales": 25000,
-      "weeks": 21,
-      "peak": 1,
-      "weeksAt1": 7,
-      "cover": "covers/crash.jpg"
-    },
-    {
       "artist": "lunaa",
       "title": "HURT ME",
-      "sales": 27000,
-      "weeks": 15,
+      "sales": 29500,
+      "weeks": 16,
       "peak": 1,
       "weeksAt1": 5,
       "cover": "covers/hurtme.png"
     },
     {
+      "artist": "bitterslay",
+      "title": "crash",
+      "sales": 26500,
+      "weeks": 22,
+      "peak": 1,
+      "weeksAt1": 7,
+      "cover": "covers/crash.jpg"
+    },
+    {
       "artist": "suicide.idol",
       "title": "north",
-      "sales": 11000,
-      "weeks": 1,
+      "sales": 13500,
+      "weeks": 2,
       "peak": 7,
       "weeksAt1": 0,
       "cover": "covers/north.png"
     },
     {
-      "artist": "Lil Million",
-      "title": "Dawg Ass",
-      "sales": 6500,
-      "weeks": 1,
-      "peak": 9,
-      "weeksAt1": 0,
-      "cover": "covers/dawgass.jpg"
-    },
-    {
       "artist": "2SMILEY",
       "title": "YOUR NAME",
-      "sales": 7400,
-      "weeks": 31,
+      "sales": 8200,
+      "weeks": 32,
       "peak": 1,
       "weeksAt1": 8,
       "cover": "covers/yourname.jpg"
     },
     {
-      "artist": "Lume",
-      "title": "Two Years",
-      "sales": 3800,
-      "weeks": 3,
-      "peak": 8,
+      "artist": "Lil Million",
+      "title": "Dawg Ass",
+      "sales": 7600,
+      "weeks": 2,
+      "peak": 9,
       "weeksAt1": 0,
-      "cover": "covers/twoyears.jpg"
+      "cover": "covers/dawgass.jpg"
     }
   ],
 
@@ -441,6 +441,7 @@
     }
   ] 
 }
+
 
 
 
