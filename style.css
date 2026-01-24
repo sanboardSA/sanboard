@@ -650,3 +650,15 @@ body::after {
   color: #f1c40f;
   max-width: 700px;
 }
+
+.project-link {
+  margin-right: 8px;
+  font-size: 14px;
+  text-decoration: none;
+  opacity: 0.6;
+  transition: 0.2s;
+}
+
+.project-link:hover {
+  opacity: 1;
+}
