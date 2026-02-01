@@ -465,17 +465,18 @@
     {
       "name": "silvain",
       "avatar": "covers/artists/silvain.png",
-      "listeners": 850000,
+      "listeners": 850000
     },
     {
       "name": "Last Bless",
       "avatar": "covers/artists/lastbless.png",
-      "listeners": 600000,
+      "listeners": 600000
     },
     {
       "name": "kaaai",
       "avatar": "covers/artists/kaaai.png",
-      "listeners": 1100000,
+      "listeners": 1100000
     }
   ]
 }
+
