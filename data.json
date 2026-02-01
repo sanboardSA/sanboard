@@ -1,96 +1,96 @@
 {
-  "currentWeek": 3,
+  "currentWeek": 4,
 
   "singles": [
     {
+      "artist": "praisecapulet",
+      "title": "Project Six",
+      "sales": 71000,
+      "weeks": 1,
+      "peak": 1,
+      "weeksAt1": 1,
+      "cover": "covers/cards/praisecapuletprojectsix.png"
+    },
+    {
       "artist": "suicide.idol",
       "title": "jail",
-      "sales": 62000,
-      "weeks": 1,
+      "sales": 42000,
+      "weeks": 2,
       "peak": 1,
       "weeksAt1": 1,
       "cover": "covers/cards/suicideidoljail.png"
     },
     {
+      "artist": "silvain",
+      "title": "sword",
+      "sales": 59000,
+      "weeks": 1,
+      "peak": 2,
+      "weeksAt1": 0,
+      "cover": "covers/cards/silvainsword.png"
+    },
+    {
+      "artist": "lunaa",
+      "title": "unnecessary violence",
+      "sales": 38500,
+      "weeks": 1,
+      "peak": 4,
+      "weeksAt1": 0,
+      "cover": "covers/cards/lunaaunnecessaryviolence.png"
+    },
+    {
       "artist": "lunaa",
       "title": "decay",
-      "sales": 54000,
-      "weeks": 8,
+      "sales": 52000,
+      "weeks": 9,
       "peak": 1,
       "weeksAt1": 7,
       "cover": "covers/decay.png"
     },
     {
+      "artist": "bitterslay",
+      "title": "after hours",
+      "sales": 36500,
+      "weeks": 11,
+      "peak": 1,
+      "weeksAt1": 5,
+      "cover": "covers/afterhours.jpg"
+    },
+    {
       "artist": "lunaa",
       "title": "miss u",
-      "sales": 36000,
-      "weeks": 11,
+      "sales": 34000,
+      "weeks": 12,
       "peak": 1,
       "weeksAt1": 5,
       "cover": "covers/missu.png"
     },
     {
       "artist": "bitterslay",
-      "title": "after hours",
-      "sales": 39000,
-      "weeks": 10,
-      "peak": 1,
-      "weeksAt1": 5,
-      "cover": "covers/afterhours.jpg"
-    },
-    {
-      "artist": "bitterslay",
       "title": "endersly",
-      "sales": 32500,
-      "weeks": 12,
+      "sales": 30000,
+      "weeks": 13,
       "peak": 1,
       "weeksAt1": 5,
       "cover": "covers/endersly.png"
     },
     {
-      "artist": "lunaa",
-      "title": "HURT ME",
-      "sales": 29500,
-      "weeks": 16,
-      "peak": 1,
-      "weeksAt1": 5,
-      "cover": "covers/hurtme.png"
-    },
-    {
-      "artist": "bitterslay",
-      "title": "crash",
-      "sales": 26500,
-      "weeks": 22,
-      "peak": 1,
-      "weeksAt1": 7,
-      "cover": "covers/crash.jpg"
-    },
-    {
       "artist": "suicide.idol",
       "title": "north",
-      "sales": 13500,
-      "weeks": 2,
+      "sales": 15000,
+      "weeks": 3,
       "peak": 7,
       "weeksAt1": 0,
       "cover": "covers/north.png"
     },
     {
-      "artist": "2SMILEY",
-      "title": "YOUR NAME",
-      "sales": 8200,
-      "weeks": 32,
-      "peak": 1,
-      "weeksAt1": 8,
-      "cover": "covers/yourname.jpg"
-    },
-    {
-      "artist": "Lil Million",
-      "title": "Dawg Ass",
-      "sales": 7600,
-      "weeks": 2,
-      "peak": 9,
+      "artist": "Lume",
+      "title": "Beyond the Threshold",
+      "sales": 10200,
+      "weeks": 1,
+      "peak": 10,
       "weeksAt1": 0,
-      "cover": "covers/dawgass.jpg"
+      "cover": "covers/cards/lumebeyondthreshold.jpg"
     }
   ],
   "albums": [
@@ -446,4 +446,5 @@
     }
   ]
 }
+
 
