@@ -32,9 +32,9 @@
     {
       "artist": "lunaa",
       "title": "unnecessary violence",
-      "sales": 38500,
+      "sales": 55500,
       "weeks": 1,
-      "peak": 4,
+      "peak": 3,
       "weeksAt1": 0,
       "cover": "covers/cards/lunaaunnecessaryviolence.png"
     },
@@ -466,6 +466,7 @@
     }
   ]
 }
+
 
 
 
