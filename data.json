@@ -476,7 +476,13 @@
       "name": "kaaai",
       "avatar": "covers/artists/kaaai.png",
       "listeners": 1100000
+    },
+    {
+      "name": "Lume",
+      "avatar": "covers/artists/lume.png",
+      "listeners": 1500000
     }
   ]
 }
+
 
