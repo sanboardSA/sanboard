@@ -101,7 +101,7 @@
       "weeks": 1,
       "peak": 1,
       "weeksAt1": 1,
-      "cover": "covers/cards/yungrollintg2.jpg.jpg"
+      "cover": "covers/cards/yungrollintg2.jpg"
     },
     {
       "artist": "praisecapulet",
@@ -347,24 +347,6 @@
       "cover": "covers/thm.jpg"
     },
     {
-      "artist": "2SMILEY",
-      "title": "Lost In Closed Case",
-      "sales": 1200,
-      "weeks": 72,
-      "peak": 2,
-      "weeksAt1": 0,
-      "cover": "covers/licc.jpg"
-    },
-    {
-      "artist": "16am",
-      "title": "Esprit de Sarcelles",
-      "sales": 1300,
-      "weeks": 66,
-      "peak": 1,
-      "weeksAt1": 1,
-      "cover": "covers/eds.jpg"
-    },
-    {
       "artist": "Lil Pri Osama",
       "title": "MR DISRESPECTFUL",
       "sales": 5100,
@@ -484,5 +466,6 @@
     }
   ]
 }
+
 
 
