@@ -441,6 +441,7 @@
     {
       "name": "watson",
       "avatar": "covers/artists/watson.jpg",
+      "page": "watson.html",
       "listeners": 0
     },
     {
