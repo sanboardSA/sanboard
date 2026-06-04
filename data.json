@@ -369,82 +369,99 @@
     {
       "name": "lunaa",
       "avatar": "covers/artists/lunaa.png",
-      "page": "lunaa.html"
+      "page": "lunaa.html",
+      "listeners": 0
     },
     {
       "name": "suicide.idol",
       "avatar": "covers/artists/suicideidol.png",
-      "page": "suicide.idol.html"
+      "page": "suicide.idol.html",
+      "listeners": 0
     },
     {
       "name": "2SMILEY",
       "avatar": "covers/artists/2smiley.jpg",
-      "page": "2SMILEY.html"
+      "page": "2SMILEY.html",
+      "listeners": 0
     },
     {
       "name": "inferno",
       "avatar": "covers/artists/inferno.jpg",
-      "page": "inferno.html"
+      "page": "inferno.html",
+      "listeners": 0
     },
     {
       "name": "dumpboii",
       "avatar": "covers/artists/dumpboii.jpg",
-      "page": "dumpboii.html"
+      "page": "dumpboii.html",
+      "listeners": 0
     },
     {
       "name": "Shawn Wayne",
       "avatar": "covers/artists/shawnwayne.png",
-      "page": "shawnwayne.html"
+      "page": "shawnwayne.html",
+      "listeners": 0
     },
     {
       "name": "Yung Rollin",
       "avatar": "covers/artists/yungrollin.jpg",
-      "page": "yungrollin.html"
+      "page": "yungrollin.html",
+      "listeners": 0
     },
     {
       "name": "bitterslay",
       "avatar": "covers/artists/bitterslay.jpg",
-      "page": "bitterslay.html"
+      "page": "bitterslay.html",
+      "listeners": 0
     },
     {
       "name": "Lil Pri Osama",
       "avatar": "covers/artists/lilpriosama.jpg",
-      "page": "lilpriosama.html"
+      "page": "lilpriosama.html",
+      "listeners": 0
     },
     {
       "name": "praisecapulet",
       "avatar": "covers/artists/praisecapulet.png",
-      "page": "praisecapulet.html"
+      "page": "praisecapulet.html",
+      "listeners": 0
     },
     {
       "name": "Big Waqo",
       "avatar": "covers/artists/bigwaqo.png",
-      "page": "bigwaqo.html"
+      "page": "bigwaqo.html",
+      "listeners": 0
     },
     {
       "name": "Lil Million",
       "avatar": "covers/artists/lilmillion.jpg",
-      "page": "lilmillion.html"
+      "page": "lilmillion.html",
+      "listeners": 0
     },
     {
       "name": "watson",
-      "avatar": "covers/artists/watson.jpg"
+      "avatar": "covers/artists/watson.jpg",
+      "listeners": 0
     },
     {
       "name": "silvain",
-      "avatar": "covers/artists/silvain.png"
+      "avatar": "covers/artists/silvain.png",
+      "listeners": 0
     },
     {
       "name": "Last Bless",
-      "avatar": "covers/artists/lastbless.png"
+      "avatar": "covers/artists/lastbless.png",
+      "listeners": 0
     },
     {
       "name": "kaaai",
-      "avatar": "covers/artists/kaaai.png"
+      "avatar": "covers/artists/kaaai.png",
+      "listeners": 0
     },
     {
       "name": "Lume",
-      "avatar": "covers/artists/lume.png"
+      "avatar": "covers/artists/lume.png",
+      "listeners": 0
     }
   ]
 }
