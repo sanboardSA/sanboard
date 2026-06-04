@@ -369,100 +369,83 @@
     {
       "name": "lunaa",
       "avatar": "covers/artists/lunaa.png",
-      "listeners": 23500000,
       "page": "lunaa.html"
     },
     {
       "name": "suicide.idol",
       "avatar": "covers/artists/suicideidol.png",
-      "listeners": 14800000,
       "page": "suicide.idol.html"
     },
     {
       "name": "2SMILEY",
       "avatar": "covers/artists/2smiley.jpg",
-      "listeners": 15200000,
       "page": "2SMILEY.html"
     },
     {
       "name": "inferno",
       "avatar": "covers/artists/inferno.jpg",
-      "listeners": 10700000,
       "page": "inferno.html"
     },
     {
       "name": "dumpboii",
       "avatar": "covers/artists/dumpboii.jpg",
-      "listeners": 8300000,
       "page": "dumpboii.html"
     },
     {
       "name": "Shawn Wayne",
       "avatar": "covers/artists/shawnwayne.png",
-      "listeners": 7600000,
       "page": "shawnwayne.html"
     },
     {
       "name": "Yung Rollin",
       "avatar": "covers/artists/yungrollin.jpg",
-      "listeners": 9100000,
       "page": "yungrollin.html"
     },
     {
       "name": "bitterslay",
       "avatar": "covers/artists/bitterslay.jpg",
-      "listeners": 6500000,
       "page": "bitterslay.html"
     },
     {
       "name": "Lil Pri Osama",
       "avatar": "covers/artists/lilpriosama.jpg",
-      "listeners": 5000000,
       "page": "lilpriosama.html"
     },
     {
       "name": "praisecapulet",
       "avatar": "covers/artists/praisecapulet.png",
-      "listeners": 7200000,
       "page": "praisecapulet.html"
     },
     {
       "name": "Big Waqo",
       "avatar": "covers/artists/bigwaqo.png",
-      "listeners": 3600000,
       "page": "bigwaqo.html"
     },
     {
       "name": "Lil Million",
       "avatar": "covers/artists/lilmillion.jpg",
-      "listeners": 2400000,
       "page": "lilmillion.html"
     },
     {
       "name": "watson",
       "avatar": "covers/artists/watson.jpg",
       "listeners": 1850000,
-      "page": "watson.html"
     },
     {
       "name": "silvain",
       "avatar": "covers/artists/silvain.png",
-      "listeners": 850000
     },
     {
       "name": "Last Bless",
       "avatar": "covers/artists/lastbless.png",
-      "listeners": 600000
     },
     {
       "name": "kaaai",
       "avatar": "covers/artists/kaaai.png",
-      "listeners": 1100000
     },
     {
       "name": "Lume",
       "avatar": "covers/artists/lume.png",
-      "listeners": 1500000
     }
   ]
 }
